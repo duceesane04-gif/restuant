@@ -1,0 +1,352 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5);
+    background: orange;
+    color: orange;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: fixed;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+ nav ul li{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background: white;
+    border-radius: 9px;
+}
+header button{
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: orange;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 5);
+    transition: 3s;
+
+}
+header button:hover{
+    background: orange;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 5);
+    transform: rotate(360deg);
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+header h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hr{
+    background: url("https://images.pexels.com/photos/36553232/pexels-photo-36553232.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 80px 50px;
+    
+
+    
+    display: flex;
+    justify-content: center;
+    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5);
+    flex-wrap: wrap;
+}
+
+.h{
+    text-align: center;
+    
+}
+.h h1{
+    font-size: 62px;
+    color: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 5);
+    padding-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 150px;
+
+}
+.h input{
+    width: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    margin-top: 60px;
+
+}
+.h button{
+    
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 5);
+    transition: 3s;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+    gap: 50px;
+    position: relative;
+    top:50px;
+    flex-wrap: wrap;
+
+}
+.about1{
+    
+}
+.about1 h2{
+color: orange;
+}
+.about1 h1{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content{
+    color: gray;
+    font-size: 20px;
+    line-height: 1.05;
+    padding-top: 80px;
+}
+.content button{
+    margin-top: 20px;
+    background: linear-gradient(to right,brown,cyan);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: -50%;
+}
+.content button:hover{
+    transform: scale(0.9);
+}
+.services{
+    display: inline;
+    justify-content: center;
+    gap: 30px;
+    padding: 90px  60px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top:350px;
+    flex-wrap: wrap;
+    
+    
+
+}
+.services1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-align: center;
+    width: 250px ;
+    height: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+    transition: 1s ease;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: linear-gradient(10deg,orange,white);
+    
+}
+.services1:hover{
+    transform: translatey(-10px);
+}
+.services h1{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.services img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.services button{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.services button:hover{
+    scale: 0.9;
+}
+.a{
+    
+  display: inline;
+    justify-content: center;
+    gap: 30px;
+    padding: 85px  50px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top:200px
+    
+}
+.a img{
+    
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.a h2{
+    padding-bottom: 30px;
+}
+
+
+.b{
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-align: center;
+    width: 250px ;
+    height: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+    transition: 1s ease;
+    border-radius: 10px;
+    background: linear-gradient(120deg,brown,orange);
+    margin-top: 20px;
+    
+}
+.b h3{
+padding-bottom: -10px;
+font-style:normal ;
+letter-spacing: 1px;
+
+}
+.b:hover{
+    transform: translatey(-10px);
+    scale: 0.9 ;
+}
+#w{
+    margin-top: 100px;
+}
+.form{
+    position: relative;
+    top: 500px;
+    background: linear-gradient(to left,navy,brown);
+    padding: 80px 100px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.form1 label{
+font-size: 25px;
+text-decoration: solid;
+}
+
+.form1 input{
+    width: 50%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form1 legend{
+    padding-bottom: 35px;
+    font-size: 30px;
+    background: linear-gradient(120deg,green,orange);
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+    
+}
+
+.form1 button{
+    
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: black;
+    color: orange;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 5);
+    transition: 3s;
+}
+footer{
+    position: relative;
+    top: 550px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background:linear-gradient(to right,navy,cyan) ;
+    color: white;
+}
+.fa-brands{
+    border-radius: 5px;
+
+}
+.fa-youtube:hover{
+    background-color: red;
+    color: white;
+}
+.fa-tiktok:hover{
+background-color: black;
+color: white;
+}
+.fa-square-facebook:hover{
+    background-color: blue;
+    color: white;
+}
+.fa-x-twitter:hover{
+    background-color: black;
+    color: white;
+}
+.fa-instagram:hover{
+    background-color: rgb(226, 95, 117);
+    color: white;
+}
+#di{
+    text-align: center;
+position: relative;
+top: 10px;
+font-size: 20px;
+    
+}
+#singup{
+    text-decoration: none;
+    color: black;
+    
+}
